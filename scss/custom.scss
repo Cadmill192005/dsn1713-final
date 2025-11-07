@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap'); 
+
+
+
+$primary: #B70311;
+$secondary: #3B5998;
+$success: #b7e3cc;
+$info: #EFD800;
+$warning: #d6f7a3;
+$danger: #dd7596;
+$light: #f2f2f2;
+$dark: #3B5998;
+
+
+$navbar-light-color: white;
+$navbar-light-active-color: lightblue;
+$navbar-light-hover-color: blue;
+
+$font-family-sans-serif: "Roboto", sans-serif;
+$headings-font-family: "Graduate", sans-serif;
+
+$h1-font-size: 6rem ;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+#hero {
+    background-image: url(../images/home-page-hero-section-image.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+#hero .d-flex {
+    height: 70vh;
+}
+
+#hero-2 {
+    background-image: url(../images/apply-page-hero-section-image.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+#hero-2 .d-flex {
+    height: 70vh;
+}
+
+#hero-3 {
+    background-image: url(../images/exhibition-page-hero-section-image.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+#hero-3 .d-flex {
+    height: 70vh;
+}
