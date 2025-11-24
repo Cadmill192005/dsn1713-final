@@ -235,34 +235,34 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: calc(1.325rem + 0.9vw);
+  font-size: calc(1.45rem + 2.4vw);
 }
 @media (min-width: 1200px) {
   h2, .h2 {
-    font-size: 2rem;
+    font-size: 3.25rem;
   }
 }
 
 h3, .h3 {
-  font-size: calc(1.3rem + 0.6vw);
+  font-size: calc(1.3875rem + 1.65vw);
 }
 @media (min-width: 1200px) {
   h3, .h3 {
-    font-size: 1.75rem;
+    font-size: 2.625rem;
   }
 }
 
 h4, .h4 {
-  font-size: calc(1.275rem + 0.3vw);
+  font-size: calc(1.35rem + 1.2vw);
 }
 @media (min-width: 1200px) {
   h4, .h4 {
-    font-size: 1.5rem;
+    font-size: 2.25rem;
   }
 }
 
 h5, .h5 {
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 h6, .h6 {
@@ -8256,19 +8256,19 @@ textarea.form-control-lg {
 }
 
 .fs-2 {
-  font-size: calc(1.325rem + 0.9vw) !important;
+  font-size: calc(1.45rem + 2.4vw) !important;
 }
 
 .fs-3 {
-  font-size: calc(1.3rem + 0.6vw) !important;
+  font-size: calc(1.3875rem + 1.65vw) !important;
 }
 
 .fs-4 {
-  font-size: calc(1.275rem + 0.3vw) !important;
+  font-size: calc(1.35rem + 1.2vw) !important;
 }
 
 .fs-5 {
-  font-size: 1.25rem !important;
+  font-size: 1rem !important;
 }
 
 .fs-6 {
@@ -11818,13 +11818,13 @@ textarea.form-control-lg {
     font-size: 6rem !important;
   }
   .fs-2 {
-    font-size: 2rem !important;
+    font-size: 3.25rem !important;
   }
   .fs-3 {
-    font-size: 1.75rem !important;
+    font-size: 2.625rem !important;
   }
   .fs-4 {
-    font-size: 1.5rem !important;
+    font-size: 2.25rem !important;
   }
 }
 @media print {
@@ -11896,6 +11896,55 @@ textarea.form-control-lg {
 
 #hero-3 .d-flex {
   height: 70vh;
+}
+
+.step-circle {
+  width: 35px;
+  height: 35px;
+  background-color: #C01622; /* red circle */
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+i.bi {
+  font-weight: bold;
+}
+
+.artwork {
+  border: 1px solid #ddd;
+  object-fit: cover;
+}
+
+.info-card {
+  background-image: url(../images/student-work-4.jpg);
+  border: 1px solid #8aa0c2;
+  position: relative;
+  height: 100%;
+}
+
+.cursor-img {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  width: 40px;
+  opacity: 0.9;
+}
+
+.title-box {
+  background-color: #7C9EE6;
+  color: white;
+  padding: 8px 0;
+  font-weight: 600;
+}
+
+.course-name {
+  background-color: #7C9EE6;
+  color: white;
+  padding: 8px;
 }
 
 /*# sourceMappingURL=custom.css.map */
