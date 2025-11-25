@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap'); 
 
-// @import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
 
 
 
@@ -95,13 +95,6 @@ i.bi {
     height: 100%;
 }
 
-.cursor-img {
-    position: absolute;
-    right: 15px;
-    top: 15px;
-    width: 40px;
-    opacity: 0.9;
-}
 
 .title-box {
     background-color: #7C9EE6;
@@ -110,4 +103,8 @@ i.bi {
     font-weight: 600;
 }
 
-
+.archives a::after {
+  font-family: "Material Icons Outlined";
+  content: "chevron_right";
+  vertical-align: -20%
+}
